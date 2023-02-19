@@ -1,0 +1,68 @@
+.app__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-black);
+
+  padding: 1rem 2rem;
+}
+
+.app__header-title {
+  color: var(--color-golden);
+  font-family: Cormorant Upright;
+  font-style: Bold;
+  font-size: 90px;
+  height: 117px;
+  height: 130%;
+}
+
+.app__header-blockOne {
+  max-width: 453px;
+}
+
+.app__header-paragraph {
+  margin: 32px auto;
+  color: var(--color-grey);
+  font-family: var(--font-alt);
+}
+
+.app__header-button {
+  max-width: 157px;
+  height: 44px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: var(--font-base);
+  padding: 8px 32px 8px 32px;
+  background: var(--color-golden);
+  border: 0;
+  border-radius: 5px;
+}
+.app__header-button:hover {
+  box-shadow: 0 0 12px var(--color-golden);
+  -moz-box-shadow: 0 0 12px var(--color-golden);
+  -o-box-shadow: 0 0 12px var(--color-golden);
+  -ms-box-shadow: 0 0 12px var(--color-golden);
+  -webkit-box-shadow: 0 0 12px var(--color-golden);
+}
+
+.app__wrapper_img {
+  max-width: 500px;
+  height: 150px;
+}
+.app__wrapper_img img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .app__header-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app__header-title {
+    font-size: 30px;
+  }
+}
